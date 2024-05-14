@@ -23,18 +23,6 @@ public class Main {
 
 }
 
-enum WallDirection {
-    HORIZONTAL,
-    VERTICAL
-}
-
-enum WallDirectionCardinal {
-    UP,
-    DOWN,
-    LEFT,
-    RIGHT
-}
-
 enum Direction {
     UP,
     DOWN,
