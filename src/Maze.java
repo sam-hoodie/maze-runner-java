@@ -107,13 +107,4 @@ public class Maze {
             System.out.println();
         }
     }
-
-    public static Boolean containsCell(Cell[] cells, Cell cell) {
-        for (Cell c : cells) {
-            if (c.equals(cell)) {
-                return true;
-            }
-        }
-        return false;
-    }
 }
